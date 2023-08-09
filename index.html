@@ -3,26 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+    <link rel="icon" href="cruze.png">
     <title>BenCruze</title>
 </head>
 <body>
     <img src="8.png" height="10px" width="510px"> <audio src="1.mp3" controls>
 
     </audio>
-    <div> 
-        <h1> <img src="cruze.png" title="cruze" width="100px" height="80px"> Cruze 
-            <img src="8.png" height="10px" width="900px"> 
+    <div id="nav"> 
+        <h1> <img src="cruze.png" title="cruze" width="80px" height="60px"> Cruze 
+            <img src="8.png" height="10px" width="790px"> 
             <a href="#Experience"><button>Experience</button></a> 
             <a href="#Projects"><button>Projects</button></a>
             <a href="#Services"><button>Services</button></a>
-            <a href="https://bencruze13.artstation.com/"><button>Gallery</button></a></h1>
+            <a href="https://bencruze13.artstation.com/" target="_blank"><button>Gallery</button></a></h1>
+            
 
     </div>
-<h1><img src="8.png" height="0px" width="70px"> I'm an Artist
+
+
+<div id="display">
+
+
+    <img src="images/5.jpeg" id="a" width="230px" height="350px">
+    <img src="images/9.jpeg" id="b" width="230px" height="350px">
+    <!--<img src="images/3.jpeg" id="c" width="320px" height="500px">
+    <img src="images/2.jpeg" id="d" width="310px" height="500px">-->
+<h1 id="edit"><img src="8.png" height="0px" width="70px"> I'm an Artist
    
-    <img src="8.png" height="1px" width="180px" > 
-  <img src="8.jpeg" height="500px" width="450px" title="The Artist">
-    <img src="8.png" height="0px" width="180px">I'm a Web developer</h1><br><br><br>
+    <img src="8.png" height="1px" width="260px" > 
+  <img src="8.jpeg" id="artist" height="500px" width="450px" title="The Artist">
+    <img src="8.png" height="0px" width="100px">I'm a Web developer</h1><br><br><br>
+
+    
+    </div>
 <hr>
     <div id="Experience">
     <h3> I am a talented digital artist with a background in graphic design and a passion 
@@ -32,30 +50,30 @@
 
          <table>
           
-            <caption><h2>  <img src="8.png" height="10px" width="500px" > My Experience </h2></caption>
+            <caption><h2>  <img src="8.png" height="10px" width="450px" > My Experience </h2></caption>
             <h3>
             <tr>
-                <th><img src="8.png" height="10px" width="500px" ></th>
-                <th>Skills</th> 
+                <th><img src="8.png" height="10px" width="400px" ></th>
+                <th id="c">Skills</th> 
                 <th>Level of Expertise</th>
                 <th>Years</th>
             </tr>
 
             <tr>
-                <td><img src="8.png" height="10px" width="500px" ></td>
-                <td>DigitalArt</td>
+                <td><img src="8.png" height="10px" width="400px" ></td>
+                <td id="c">DigitalArt</td>
                 <td>Intermidiate</td>
                 <td>2-3</td>
             </tr>
             <tr>
-                <td><img src="8.png" height="10px" width="500px" ></td>
-                <td>Graphics Design</td>
+                <td><img src="8.png" height="10px" width="400px" ></td>
+                <td id="c">Graphics Design</td>
                 <td>Intermidiate</td>
                 <td>2-3</td>
                 </tr>
             <tr>  
-                <td><img src="8.png" height="10px" width="500px" ></td>  
-                <td>Web development</td>
+                <td><img src="8.png" height="10px" width="400px" ></td>  
+                <td id="c">Web development</td>
                 <td>Beginner</td>
                 <td>0-1</td>
             </tr>
@@ -63,6 +81,8 @@
          </table>
 
 </div>
+<!--<progress value="50" max="100"></progress>-->
+<div id="pre">
 <pre><h3>
     As an experienced developer hailing from Nigeria, my unwavering focus lies in empowering and guiding aspiring developers on their journey to <br>problem-solving excellence. With a strong commitment to professionalism, inspiration, and robust solutions, I wholeheartedly dedicate myself to uplifting the developer <br>community.
 
@@ -81,43 +101,49 @@ As an experienced developer hailing from Nigeria, my unwavering focus lies in em
 
 </h3>
 </pre>
+</div>
 <hr>
 
 <div id="Projects">
     <br><br>
-    <h2><img src="8.png" height="10px" width="650px" >Projects</h2>
+    <h2><img src="8.png" height="10px" width="650px" >Projects</h2><br>
+    <div id="grad"></div>
     <marquee behaviour="scroll" direction="down" scrollamount="7">
     <img src="images/1.jpeg" width="320px" height="500px">
     <img src="images/4.jpeg" width="300px" height="500px">
     <img src="images/7.jpeg" width="500px" height="500px">
     <img src="images/2.jpeg" width="310px" height="500px"> </marquee>
+    
 <br><br><br>
 </div>
 <hr>
 <div id="Services">
-    <h2><img src="8.png" height="10px" width="650px" >Services</h2>
-
-    <img src="8.png" height="30px" width="580px" >
+    <br>
+    <h2><img src="8.png" height="10px" width="700px" >Services</h2>
+<br>
+    <img src="8.png" height="30px" width="600px" >
  <a href="#Hire"><button>Hire Me</button></a> 
+
  <img src="8.png" height="10px" width="60px" >
-            <input list="choice" placeholder="Packages">
+            <input list="choice" id="input" placeholder="Packages">
             <datalist id="choice" >
                 <option value="$1000 upward">Web Development</option>
                 <option value="$800 upward">Graphic Design</option>
                 <option value="$1500 upward">Digital Art</option>
             </datalist><br><br>
-            <img src="8.png" height="50px" width="400px" >
-            <video src="1.mp4" width="600px" height="500px" controls>
+        <img src="8.png" height="50px" width="500px" >
 
-            </video>
-            
-
-        <img src="8.png" height="50px" width="620px" >
-        <img src="i.png" height="30px" width="30px" >
-        <img src="w.png" height="30px" width="30px" >
-        <img src="f.png" height="30px" width="30px" >
-        <img src="g.png" height="30px" width="30px" >
-
+     <video src="1.mp4" width="600px" height="460px" controls>
+</video>
+            <br><br>
+<div id="img">
+        <img src="8.png" height="50px" width="690px" >
+        <img src="i.png" height="30px" width="50px" >
+        <img src="w.png" height="30px" width="50px" >
+        <img src="f.png" height="30px" width="50px" >
+        <img src="g.png" height="30px" width="50px" >
 </div>
+</div>
+<br><br>
 </body>
 </html>

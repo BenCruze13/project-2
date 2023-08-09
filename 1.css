@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+body{
+    background: rgb(36, 36, 36);
+}
+#nav{
+    margin-left: 40px;
+}
+
+#nav button{
+    padding: 10px 20px;
+    background: none;
+    border: none;
+    transition: all .5s;
+    border-bottom: 0px solid yellow;
+    border-color: transparent;
+}
+#nav button:hover{
+    border-bottom: 1px solid yellow;
+    transition-delay: .2s;
+}
+#display{
+    
+    margin-top: 50px;
+}
+#edit{
+    font-weight: 400;
+}
+#artist{
+    border-radius: 30px;
+    transition: transform .4s ;
+    transition: all .4s;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.478);
+}
+#artist:hover{
+    transform: scale(1.2);
+    border: 1px solid yellow;
+    border-radius: 0px;
+  
+}
+#pre{
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+}
+#a{
+    position: absolute;
+    z-index: 0;
+    margin-left: 970px;
+    margin-top: 70px;
+    transition: all .4s;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.478);
+    animation: ani ease-out 1.5s;
+}
+@keyframes ani {
+    from {
+    opacity: 0;
+    margin-left: 950px;
+    margin-top: 50px;
+    border: 1px solid red;
+    }
+    25%{
+        opacity: 1;
+        margin-left: 970px;
+        margin-top: 70px;
+        border: 1px solid green;
+        transition-delay: 0.1s;
+        }
+    50%{
+    opacity: 0.5;
+    margin-left: 990px;
+    margin-top: 30px;
+    border: 1px solid blue;
+    }
+    to{
+        opacity: 1;
+        margin-left: 970px;
+        margin-top: 70px;
+        border: 1px solid greenyellow;
+        }
+    
+}
+#a:hover{
+    opacity: 0.8;
+    border-radius: 50px;
+    margin-left: 950px;
+  
+}
+
+#b{
+    position: absolute;
+    z-index: 200;
+    margin-left: 378px;
+    margin-top: 70px;
+    transition: all .4s;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.478);
+    border: 1px solid rgb(233, 233, 1);
+    animation: ani1 ease-in 1.5s;
+}
+@keyframes ani1 {
+    from {
+    opacity: 0;
+    margin-left: 378px;
+    margin-top: 30px;
+
+    }
+    25%{
+        opacity: 1;
+        margin-left: 360px;
+        margin-top: 30px;
+        border: 1px solid red;
+        transition-delay: 0.1s;
+        }
+    50%{
+    opacity: 0.5;
+    margin-left: 360px;
+    margin-top: 70px;
+    border: 1px solid greenyellow;
+    }
+    to{
+        opacity: 1;
+        margin-left: 378px;
+        margin-top: 70px;
+        }
+    }
+#b:hover{
+    opacity: 0.5;
+    border-radius: 50px;
+    margin-top: 90px;
+    border: none;
+}
+audio{
+   margin-left: 100px;
+   margin-top: 20px;
+}
+hr{
+    width: 90%;
+    margin-left: 80px;
+    border: 0.5px solid rgba(255, 255, 255, 0.426);
+}
+#Experience{
+    width: 90%;
+    margin-left: 80px;
+    margin-top: 20px
+}
+#Experience h3{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(142, 142, 142);
+}
+#Experience h3:hover{
+    color: #cfcfcf;
+
+}
+table{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+caption{
+    font-weight: 300;
+    text-align: center;
+}
+td, th{
+    padding: 7px 7px;
+    text-align: center;
+   
+}
+#c{
+    text-align: left;
+}
+#pre{
+    text-align: center;
+    width: 90%;
+    padding: 0px 20px;
+    margin-left: 50px;
+    
+}
+#pre h3{
+    font-weight: 200;
+    color: rgb(142, 142, 142);
+    transition: all .3s;
+}
+#pre h3:hover{
+    color: #cfcfcf;
+
+}
+#Projects{
+    margin-left: 40px;
+    width: 95%;
+}
+marquee{
+    border-radius: 30px ;
+}
+#Services button{
+    background-color: yellowgreen;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+#Services button:hover{
+    background-color: rgb(36, 36, 36);
+    color: yellowgreen;
+}
+#input{
+    padding: 10px 10px;
+    border-radius: 30px;
+    border: none;
+}
+#input::placeholder{
+    color: grey;
+    font-size: 18px;
+    text-align: center;
+    transition: all ease-in-out .5s;
+}
+#input:hover{
+    transform: scale(1.2);
+}
+video{
+    border-radius: 30px;
+}
+#img img{
+   padding: 0px 8px 8px 10px;
+}
+#grad{
+    background-image: linear-gradient(transparent,rgb(0, 0, 0));
+    border-radius: 30px;
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
